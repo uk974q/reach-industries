@@ -15,7 +15,7 @@ import Login from './Login/Login'
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/home" element={<ProtectedRoute><MainPage/></ProtectedRoute>} />
           <Route path="/login" element={<Login />} />

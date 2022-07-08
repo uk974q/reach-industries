@@ -25,7 +25,7 @@ export default function VideoResources(props){
           document.querySelector(".error").classList.remove("d-none")
           return;
         }
-        fetch('/frontend_test.json').then(res => res.json()).then(jsonData => {
+        fetch("https://cors-anywhere.herokuapp.com/"+response.output.cvmdata).then(res => res.json()).then(jsonData => {
           let data = Object.values(jsonData["frame_data"]).map(el =>{
             let r = el["avgR"]
             let g = el["avgG"]
