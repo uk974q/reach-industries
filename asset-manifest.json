@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reach-industries/static/css/main.f006d3d0.css",
-    "main.js": "/reach-industries/static/js/main.2f739387.js",
+    "main.js": "/reach-industries/static/js/main.70ed9914.js",
     "static/js/787.e7cb65ed.chunk.js": "/reach-industries/static/js/787.e7cb65ed.chunk.js",
     "index.html": "/reach-industries/index.html",
     "main.f006d3d0.css.map": "/reach-industries/static/css/main.f006d3d0.css.map",
-    "main.2f739387.js.map": "/reach-industries/static/js/main.2f739387.js.map",
+    "main.70ed9914.js.map": "/reach-industries/static/js/main.70ed9914.js.map",
     "787.e7cb65ed.chunk.js.map": "/reach-industries/static/js/787.e7cb65ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f006d3d0.css",
-    "static/js/main.2f739387.js"
+    "static/js/main.70ed9914.js"
   ]
 }
