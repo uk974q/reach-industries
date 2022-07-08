@@ -124,7 +124,7 @@ export default function Login(){
                 <label htmlFor ='org' required>Organization</label>
                 <input type='text' name="org" id="org" onKeyUp={checkValid}></input>
                 <div className='password-container'>
-                    <label htmlFor ="password">Password</label>
+                    <label htmlFor ="password">Password (Min 6 char)</label>
                     <a id="showPassword" onClick={showPassword}>Show Password</a>
                     <input type='password' name="password" id="password" required onKeyUp={checkValid}></input>
                 </div>
