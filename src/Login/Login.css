@@ -1,0 +1,74 @@
+.login-page-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    /* background-color: whitesmoke; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.25rem;
+}
+.form-container #newUser{
+    font-size: 0.875rem;
+    color: red;
+    cursor: pointer;
+    text-align: center;
+}
+.form-container #signInUser{
+    font-size: 0.875rem;
+    color: blue;
+    cursor: pointer;
+    text-align: center;
+}
+
+.form-container label{
+    margin-block: 0.313rem;
+}
+.form-container input{
+    padding: 0.625rem 0.313rem;
+    border-radius: 0.25rem;
+    font-size: 1.125rem;
+    border: 1px solid black;
+    height: 1.25rem;
+    margin-block: 0.625rem;
+}
+.form-container .password-container{
+    display: flex;
+    flex-direction: column;
+}
+.form-container .password-container a{
+    font-size: 0.625rem;
+    color: blue;
+    cursor: pointer;
+}
+.button-group .btn{
+    /* width: 100%; */
+    color: black;
+    font-size: 1rem;
+    height: 3.438rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    cursor: pointer;
+    padding: 0.938rem;
+    width: 12.5rem;
+    align-content: center;
+}
+.button-group .btn.login-button{
+    background-color: lightsalmon;
+}
+.button-group .btn.signup-button{
+    background-color: paleturquoise;
+}
+.errorInLogin{
+    border: 2px solid red;
+    padding: 0.938rem;
+    background-color: antiquewhite;
+    color: black;
+    margin: 0.625rem;
+
+}

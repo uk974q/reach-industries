@@ -1,0 +1,34 @@
+.video-player-details-page{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.video-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.canvas{ 
+    display: flex;
+    width:25rem; 
+    height:15rem; 
+    justify-content: center;
+    margin-block: 0.625rem;
+}
+.video-container{ 
+    width:90%; 
+    height:100%; 
+    border-radius: 0.625rem;
+}
+.tracker-svg-container{
+    width: 60%;
+}
+.d-none{
+    display: none;
+}
+@media screen and (max-width: 1366px) {
+    .tracker-svg-container{
+        width: 90%;
+    }
+}
